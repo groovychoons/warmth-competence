@@ -76,7 +76,7 @@ dataset['text'] = dataset.apply(
 )
 
 # Reorder columns for clarity
-cols = ['text', 'word_category', 'firstname', 'Group', 'descriptor']
+cols = ['text', 'word_category', 'firstname', 'Group', 'descriptor', 'template']
 dataset = dataset[cols]
 
 
