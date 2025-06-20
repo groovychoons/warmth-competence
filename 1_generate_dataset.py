@@ -80,6 +80,6 @@ cols = ['text', 'word_category', 'firstname', 'Group', 'descriptor']
 dataset = dataset[cols]
 
 
-dataset.to_csv("./data/wow-gb-dataset/template_dataset.csv")
+dataset.to_csv("./data/wow-gb-dataset/template_dataset.csv", index=False)
 
 print("Dataset created.")
